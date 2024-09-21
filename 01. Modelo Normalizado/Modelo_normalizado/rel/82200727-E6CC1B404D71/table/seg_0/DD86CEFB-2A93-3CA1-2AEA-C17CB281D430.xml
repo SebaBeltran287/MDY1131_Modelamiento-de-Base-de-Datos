@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD86CEFB-2A93-3CA1-2AEA-C17CB281D430" name="PEDIDO">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Pedido</comment>
+<generatorID>16A4A335-AD5A-16DB-4304-F24430998049</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_pedido" id="3C7A95B9-7870-455C-257C-DFC66A1C4698">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Numero de pedido</comment>
+<generatorID>1BAA17E4-D379-6842-EF1C-ED82EF4585D5</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="A849F0D6-C81E-90FE-E08C-03F575472E8F">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Fecha de entrega</comment>
+<generatorID>96D6F3C0-CCDB-3254-31F4-3CBD81F6EB5A</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula_remolque" id="B21BBD31-3590-39FC-7F62-B79BEB254365">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>ECCE0E6D-CAA2-EFE8-7DED-D36FA9A470FC</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AA1CFB2-CC7B-E1DA-2BC4-95DBA3D8444B" referredColumn="C47103ED-F8D1-7AC6-5378-9FEFC581D2B0"/>
+</associations>
+</Column>
+<Column name="rut_cliente" id="AB348D8B-4236-B7C1-66CF-AC1326F04522">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>81B3F3D2-E713-8073-1493-98FE0B602E08</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB6EE7F6-4F69-D429-B123-C2E2989DCCF6" referredColumn="B3AE49A3-A897-9F42-AE4A-61F175DB376F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ECC772A-E200-016C-AD37-F8D46DD7338C" name="PEDIDO_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>9EB5CDF7-5842-87CD-95C7-4F85A76154BB</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C7A95B9-7870-455C-257C-DFC66A1C4698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B11322C-F990-2EEC-EB2A-038BBFC8DE23" name="PEDIDO_CLIENTE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>EC68DF36-1B83-D434-CF42-4532E5945E1B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB348D8B-4236-B7C1-66CF-AC1326F04522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDFFFFC6-0C98-40E2-B8F3-B4659BCB7DFD" name="PEDIDO_REMOLQUE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>09C2EEFF-32C9-1B9C-E15A-073378BBEA01</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B21BBD31-3590-39FC-7F62-B79BEB254365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

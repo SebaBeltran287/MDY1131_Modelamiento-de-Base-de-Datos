@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A1715F9-0367-69C2-8B7D-1D5FA8215A6F" name="REMOLQUE_PARQUE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:57:07 UTC</createdTime>
+<comment>Remolque Parque</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_remolque_parque" id="D9D2E1E7-843A-A512-F556-D81DE27E3318">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:02:22 UTC</createdTime>
+<comment>Id remolque parque </comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="DDDCFAB6-C459-9346-E6A2-C048C3F191F0">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:02:41 UTC</createdTime>
+<comment>fecha de ingreso</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_salida" id="5916A402-2723-5D8E-DF60-18682A515B3A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:02:54 UTC</createdTime>
+<comment>fecha salida</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nro_parque" id="916F48A3-672E-7420-B283-35E89F840F56">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:03:15 UTC</createdTime>
+<generatorID>841351BB-5BA1-D088-34B1-9ACE10C6D8CD</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>221D746D-C12C-15EB-64E6-A50D03E03EDE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_remolque" id="47E5E666-900A-0BC9-E10F-1DCEC381F6DA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:03:21 UTC</createdTime>
+<generatorID>F29BADBB-C63A-6175-2112-F14E64DA875C</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>C61AD41C-3374-C546-F114-E4D63ECE943E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DD658B8-0C5A-8703-F83B-3B9DDF961E33" name="REMOLQUE_PARQUE PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:02:40 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9D2E1E7-843A-A512-F556-D81DE27E3318</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

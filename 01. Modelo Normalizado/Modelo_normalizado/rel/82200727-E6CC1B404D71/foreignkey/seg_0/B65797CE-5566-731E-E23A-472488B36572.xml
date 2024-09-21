@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B65797CE-5566-731E-E23A-472488B36572" containerWithKeyObject="85F413C5-A777-C85E-0137-74EF92E72811" localFKIndex="F267F3EA-ED9F-0557-1A32-9D2352532737" name="DETALLE_MOVIMIENTO_MOVIMIENTO_CAJA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>9AAFCABD-E026-C6B4-83D8-DECF84B542D0</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<referredTableLongName>MOVIMIENTO_CAJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33EBEEF7-B7BD-E325-5720-C811870ADC5E</referredTableID>
+<keyObject>04D6D26E-B3F7-1E4B-F9BD-2C879572DC99</keyObject>
+<referredKeyID>04D6D26E-B3F7-1E4B-F9BD-2C879572DC99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_movimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="763D6464-0ADB-5AFC-A690-88892E1E6D7F" mainViewID="57CFBFE2-9107-131C-9887-564BE0FA9D3D">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:02:09 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

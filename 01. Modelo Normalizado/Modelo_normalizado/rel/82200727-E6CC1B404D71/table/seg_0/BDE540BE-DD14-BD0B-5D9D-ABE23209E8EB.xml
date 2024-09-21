@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDE540BE-DD14-BD0B-5D9D-ABE23209E8EB" name="REMOLQUE_PARQUE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Remolque Parque</comment>
+<generatorID>3A1715F9-0367-69C2-8B7D-1D5FA8215A6F</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_remolque_parque" id="77A3CC39-ACAF-CBCC-0367-A181B87651F8">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Id remolque parque </comment>
+<generatorID>D9D2E1E7-843A-A512-F556-D81DE27E3318</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="CF888676-64D5-1625-39B5-46992D25EE7A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>fecha de ingreso</comment>
+<generatorID>DDDCFAB6-C459-9346-E6A2-C048C3F191F0</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_salida" id="9517E471-6003-2641-5527-ADA52B5744E4">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>fecha salida</comment>
+<generatorID>5916A402-2723-5D8E-DF60-18682A515B3A</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_parque" id="A87A4A49-7553-73E1-FE72-3F1C8FAC61A9">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>916F48A3-672E-7420-B283-35E89F840F56</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2C94C8B-ADC7-59DD-920D-FA5C3CF2CE86" referredColumn="EA551CDA-F5D8-5124-EBBC-A995FB583BA8"/>
+</associations>
+</Column>
+<Column name="matricula_remolque" id="266BADCC-D589-602C-96A2-88A44E71AC7D">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>47E5E666-900A-0BC9-E10F-1DCEC381F6DA</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9DEE949-A504-A420-40AF-BA010A57F788" referredColumn="C47103ED-F8D1-7AC6-5378-9FEFC581D2B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8187E9A-F763-F5C4-EC3E-40F5953EA23D" name="REMOLQUE_PARQUE_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>5DD658B8-0C5A-8703-F83B-3B9DDF961E33</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A3CC39-ACAF-CBCC-0367-A181B87651F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D5A90E-0F08-381B-C7AB-AFF82E158BB8" name="REMOLQUE_PARQUE_PARQUE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>841351BB-5BA1-D088-34B1-9ACE10C6D8CD</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A87A4A49-7553-73E1-FE72-3F1C8FAC61A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D52BD28-0C02-6A67-3C0A-C960EC7EF14C" name="REMOLQUE_PARQUE_REMOLQUE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>F29BADBB-C63A-6175-2112-F14E64DA875C</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="266BADCC-D589-602C-96A2-88A44E71AC7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

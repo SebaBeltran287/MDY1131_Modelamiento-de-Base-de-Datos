@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EBEEF7-B7BD-E325-5720-C811870ADC5E" name="MOVIMIENTO_CAJA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Movimiento caja</comment>
+<generatorID>C6B4C864-C4DA-721D-4C0F-CD9ABFF9F0D2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_movimiento" id="D4E564A4-18FE-2010-B835-9C01625353B3">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Codigo de movimiento</comment>
+<generatorID>4DC2EE0B-63F1-BCF6-17DC-9C546D9D0B47</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_movimiento" id="36D99B94-F598-FDE3-043E-62CF31FF51FA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Fecha de movimiento</comment>
+<generatorID>A57DE545-1581-9173-B02A-9CA0645F79AB</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04D6D26E-B3F7-1E4B-F9BD-2C879572DC99" name="MOVIMIENTO_CAJA_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>86275D69-6252-08C8-D6E9-2578249E256B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4E564A4-18FE-2010-B835-9C01625353B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="885DD663-07C6-AF8E-4A16-104A0776696E" name="TIPO_RUTA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:49:14 UTC</createdTime>
+<comment>Tipo de ruta</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tiporuta" id="D302FC42-FE80-E8F6-F83C-AE2B4AC05544">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:39:16 UTC</createdTime>
+<comment>Id tipo de ruta</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_tiporuta" id="2F68F6D1-3EC6-5136-A339-DA48940E0B8F">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:39:29 UTC</createdTime>
+<comment>Nombre del tipo de ruta</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_remolque" id="54A8AE55-4119-4591-27CC-E2CE448E8C14">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:41:36 UTC</createdTime>
+<generatorID>D3FB0D5B-37C8-15FE-D482-CFDC279636F2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>C61AD41C-3374-C546-F114-E4D63ECE943E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90B2D12B-907E-DC1A-B6B6-FC4A6A970219" name="TIPO_RUTA PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:42:29 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D302FC42-FE80-E8F6-F83C-AE2B4AC05544</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3105193E-092B-B519-1BB8-17D6A6893297" containerWithKeyObject="ACEE7D2B-F8C0-083D-EA5C-C0B4F38F7FBF" localFKIndex="2C8E74E9-3601-AE5C-A1FE-D44D25B83D38" name="CAMION_TIPO_CONDUCTOR_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>E94A76EE-67C1-7A14-B40F-D6EBDB8D028E</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<referredTableLongName>TIPO_CONDUCTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4679B6E0-1437-2750-DDE7-C01A0DAFFA22</referredTableID>
+<keyObject>51F9343F-C0CF-7A7A-F998-CC1503A159BD</keyObject>
+<referredKeyID>51F9343F-C0CF-7A7A-F998-CC1503A159BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_conductor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

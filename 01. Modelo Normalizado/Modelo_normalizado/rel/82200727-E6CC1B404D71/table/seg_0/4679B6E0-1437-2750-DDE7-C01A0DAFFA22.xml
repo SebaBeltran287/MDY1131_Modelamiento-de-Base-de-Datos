@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4679B6E0-1437-2750-DDE7-C01A0DAFFA22" name="TIPO_CONDUCTOR">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Tipo de conductor</comment>
+<generatorID>E44B31A9-9503-2CF7-18A9-950E828556CC</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_conductor" id="6755AA4E-203F-AF14-3231-C6F40A22F83B">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Id tipo de conductor</comment>
+<generatorID>632E9F27-E986-344E-27AB-3D6C4C23E7B2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tipoconductor" id="5AB52746-A950-800F-64E5-80392E6AA793">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Nombre tipo conductor</comment>
+<generatorID>39D63D49-7195-8FFF-6933-5B78BB2AF613</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sueldo" id="6E4FEB7B-D003-35CF-3B06-DFC1AF09CD1E">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>9CDBFB1E-FC34-F155-9749-34058F749C92</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2464758-551D-6087-A7C5-5D8D5B438A18" referredColumn="16B45951-5259-46BE-74C6-AA611F2A32A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51F9343F-C0CF-7A7A-F998-CC1503A159BD" name="TIPO_CONDUCTOR_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>F6B532E8-9848-295B-F21A-0C3050C65878</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6755AA4E-203F-AF14-3231-C6F40A22F83B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="093047BE-124D-1818-BD8E-51A64BDACCAD" name="TIPO_CONDUCTOR_SUELDO_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>793B0F1E-03B7-AAFE-F71F-1BC11449E306</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E4FEB7B-D003-35CF-3B06-DFC1AF09CD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

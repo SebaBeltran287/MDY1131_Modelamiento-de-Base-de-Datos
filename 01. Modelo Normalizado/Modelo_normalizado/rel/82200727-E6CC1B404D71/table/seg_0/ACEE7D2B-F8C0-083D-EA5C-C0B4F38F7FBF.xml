@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACEE7D2B-F8C0-083D-EA5C-C0B4F38F7FBF" name="CAMION">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:20 UTC</createdTime>
+<comment>Camion</comment>
+<generatorID>131C9557-E376-85F1-729F-6390AFD06D14</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_camion" id="F7F0C905-2C80-1B18-2328-A2691A08C9F7">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Id de camion</comment>
+<generatorID>0C610A64-ACC1-C8DF-45AC-E3AE06B0187C</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="2C6E97F1-ABF0-22A8-1DD9-29804768FB14">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Matricula del camion</comment>
+<generatorID>0CC97963-E638-ECB2-9B60-9CCB80D50F9A</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_alta" id="D955276D-105B-83B6-9692-1CE9E11FC0FE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Fecha de disponibilidad del camion </comment>
+<generatorID>33332FA7-7721-61CC-3CBA-272A7B3DDDE6</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_max_carga" id="4805D409-05B5-06BD-415F-21EE6AC5C9FF">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Peso maximo de carga del camion </comment>
+<generatorID>A00D0013-E998-411B-3596-CBB86AB8C043</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_conductor" id="383E12BD-21EB-B47D-1F1B-E4BF17FFA362">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>DA9ED30A-F62C-FCAE-5D8C-9E288EA8951B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3105193E-092B-B519-1BB8-17D6A6893297" referredColumn="6755AA4E-203F-AF14-3231-C6F40A22F83B"/>
+</associations>
+</Column>
+<Column name="id_tarifa" id="F283AA04-A484-E892-805F-2F5C4D068283">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>C18F96ED-2BB6-E23E-775C-C31DDDFCE92E</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2281C3A5-57A9-AA8F-FBF7-DEA1C1F1D33D" referredColumn="C0F646A4-76E7-CF20-F96F-8AD74C67FC39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="045C0EDA-A47C-9E7D-BB63-E4FFF36A078A" name="CAMION_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>7F4DD0EE-CF24-52E3-E30A-061DAB7D9220</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F0C905-2C80-1B18-2328-A2691A08C9F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C8E74E9-3601-AE5C-A1FE-D44D25B83D38" name="CAMION_TIPO_CONDUCTOR_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>E94A76EE-67C1-7A14-B40F-D6EBDB8D028E</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="383E12BD-21EB-B47D-1F1B-E4BF17FFA362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D970B69F-83FA-0816-175A-8226D3E2B02F" name="CAMION_TARIFA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>985DF764-12BE-49B8-1850-FF3EB26E5EC2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F283AA04-A484-E892-805F-2F5C4D068283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF123E63-7555-7155-1171-5CFB2D722B8B" name="DETALLE_MOVIMIENTO">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:06:37 UTC</createdTime>
+<comment>Detalle movimiento caja</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detallemov" id="6A4AA8A0-6D79-61F4-0F52-42B5FE42759A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:59:32 UTC</createdTime>
+<comment>Id detalle  movimiento</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_movimiento" id="38424DC5-CAC2-D736-7E8C-776E8A9408BF">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:59:33 UTC</createdTime>
+<comment>Monto movimiento caja</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_movimiento" id="3A14833E-FF2E-8476-7719-4646737E7CEA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:00:11 UTC</createdTime>
+<generatorID>9AAFCABD-E026-C6B4-83D8-DECF84B542D0</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>4DC2EE0B-63F1-BCF6-17DC-9C546D9D0B47</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_movimiento" id="0E484B0F-A483-A2AE-F9E8-FB4BD85597F5">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:10:34 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_conductor" id="71DA7072-3329-9933-5A6C-5B796D385E7A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:18:34 UTC</createdTime>
+<generatorID>000C5539-EACD-F591-F7EF-FFB8A3AD08EF</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>632E9F27-E986-344E-27AB-3D6C4C23E7B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E602F89B-B632-B435-82DE-08945F763563" name="DETALLE_MOVIMIENTO PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:59:55 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A4AA8A0-6D79-61F4-0F52-42B5FE42759A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

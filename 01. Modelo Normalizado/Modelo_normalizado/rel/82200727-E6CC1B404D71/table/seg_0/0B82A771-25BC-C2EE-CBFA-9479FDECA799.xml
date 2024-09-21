@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B82A771-25BC-C2EE-CBFA-9479FDECA799" name="TIPO_RUTA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Tipo de ruta</comment>
+<generatorID>885DD663-07C6-AF8E-4A16-104A0776696E</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tiporuta" id="77BB1AE1-AF9D-AB6A-A3F7-D9CD3945D95A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Id tipo de ruta</comment>
+<generatorID>D302FC42-FE80-E8F6-F83C-AE2B4AC05544</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tiporuta" id="DF001B0F-E720-7E69-47A9-EF613B2ECDC1">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Nombre del tipo de ruta</comment>
+<generatorID>2F68F6D1-3EC6-5136-A339-DA48940E0B8F</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula_remolque" id="3EC08537-559F-EDA7-14AD-46823EEC3FA6">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>54A8AE55-4119-4591-27CC-E2CE448E8C14</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13036849-0345-8D85-3F37-3CEFFAF96C92" referredColumn="C47103ED-F8D1-7AC6-5378-9FEFC581D2B0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F182369-B8E8-530B-EFD1-99D37B328FDD" name="TIPO_RUTA_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>90B2D12B-907E-DC1A-B6B6-FC4A6A970219</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77BB1AE1-AF9D-AB6A-A3F7-D9CD3945D95A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="467570C5-F94A-0073-91B5-31D1EDF5E198" name="TIPO_RUTA_REMOLQUE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>D3FB0D5B-37C8-15FE-D482-CFDC279636F2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EC08537-559F-EDA7-14AD-46823EEC3FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85F413C5-A777-C85E-0137-74EF92E72811" name="DETALLE_MOVIMIENTO">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Detalle movimiento caja</comment>
+<generatorID>FF123E63-7555-7155-1171-5CFB2D722B8B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detallemov" id="1582617B-616F-C492-9FA7-C3468C4A9E65">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Id detalle  movimiento</comment>
+<generatorID>6A4AA8A0-6D79-61F4-0F52-42B5FE42759A</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_movimiento" id="5410E410-0F81-7081-712E-A88438AF786E">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Monto movimiento caja</comment>
+<generatorID>38424DC5-CAC2-D736-7E8C-776E8A9408BF</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_movimiento" id="3F9E0535-09B4-8C4E-50D7-A321702E8F95">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>3A14833E-FF2E-8476-7719-4646737E7CEA</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B65797CE-5566-731E-E23A-472488B36572" referredColumn="D4E564A4-18FE-2010-B835-9C01625353B3"/>
+</associations>
+</Column>
+<Column name="fecha_movimiento" id="7CDE6655-B4D6-21B4-D441-A30634A010A3">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>0E484B0F-A483-A2AE-F9E8-FB4BD85597F5</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tipo_conductor" id="09EC5140-4568-8E61-328B-F4CEF972FC5E">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>71DA7072-3329-9933-5A6C-5B796D385E7A</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BE3611D-3225-1171-DD9F-9C1A2AAB241D" referredColumn="6755AA4E-203F-AF14-3231-C6F40A22F83B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCCAE912-48E3-B650-3227-5AAFF74ACCEA" name="DETALLE_MOVIMIENTO_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>E602F89B-B632-B435-82DE-08945F763563</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1582617B-616F-C492-9FA7-C3468C4A9E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F267F3EA-ED9F-0557-1A32-9D2352532737" name="DETALLE_MOVIMIENTO_MOVIMIENTO_CAJA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>9AAFCABD-E026-C6B4-83D8-DECF84B542D0</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9E0535-09B4-8C4E-50D7-A321702E8F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF5DFD7-68CA-1558-A181-26E122716A57" name="DETALLE_MOVIMIENTO_TIPO_CONDUCTOR_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>000C5539-EACD-F591-F7EF-FFB8A3AD08EF</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09EC5140-4568-8E61-328B-F4CEF972FC5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

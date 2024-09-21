@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C27A7DA-34FF-A22D-ED48-89D6BB00BF7B" name="PARQUE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:53:05 UTC</createdTime>
+<comment>Parque</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_parque" id="221D746D-C12C-15EB-64E6-A50D03E03EDE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:53:19 UTC</createdTime>
+<comment>Numero de parque</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_parque" id="B307498A-27CD-C47A-4A6F-8CA18355BE41">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:53:58 UTC</createdTime>
+<comment>Nombre de parque</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="AF8D3BAA-E03D-C155-FE51-C737B24891A1">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:05:22 UTC</createdTime>
+<generatorID>9AA40D3C-BE81-A8FD-477E-BBA2D028BB15</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>22387091-2B1D-4AC2-226E-21ECA7DC3A87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37C8654B-406E-B0A2-772D-C44520D55CDB" name="PARQUE PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:53:57 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>221D746D-C12C-15EB-64E6-A50D03E03EDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A0D0F1F-B942-306C-A9C2-D3862E066922" name="RUTA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>0D1218F1-38FB-E6E0-A966-41E183AC7DC9</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_identificador" id="7E6CAD2D-A940-122A-EE42-4EA5395C2856">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Numero identificador ruta</comment>
+<generatorID>3BC02CB2-8CDE-EC94-3AF8-9B9208EF3511</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_ruta" id="42E1BD4B-E436-8500-ACFF-C56108AFBA92">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<comment>Nombre de ruta</comment>
+<generatorID>D5733E23-69A3-5677-E3F9-FC76D1D86694</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tiporuta" id="57313BFC-E4B2-6F3D-6053-D9C2AA8B4DA5">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>24AABA3F-AE22-7ECF-C91A-62FE74EF9A1F</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51130575-F74D-3D10-269F-C02F26AA7A8A" referredColumn="77BB1AE1-AF9D-AB6A-A3F7-D9CD3945D95A"/>
+</associations>
+</Column>
+<Column name="id_comuna" id="F9EE3D47-C314-3B5A-1CEA-A9F5C4A07FAC">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>EA19CE74-95D0-0D1C-2AA6-99DD5B51BE0B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D29A3398-D3B4-9C24-82F5-64D0C6E56AB9" referredColumn="40665E30-648E-7B12-FB64-6DA07C389248"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63B275B7-4F6D-7E28-6569-3776BB2D788D" name="RUTA_PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>8635D0F0-3B68-4353-61BE-E95E0DCEC6A3</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E6CAD2D-A940-122A-EE42-4EA5395C2856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D9D7494-49D5-5756-0782-39344A036133" name="RUTA_TIPO_RUTA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>22319C98-C9AC-FA7B-5841-FEC9CF9E52A7</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57313BFC-E4B2-6F3D-6053-D9C2AA8B4DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C66CA5C-77AF-9493-D35C-14EC275DD8A3" name="RUTA_COMUNA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>C9575EF2-2ED0-077E-2797-61001590F004</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9EE3D47-C314-3B5A-1CEA-A9F5C4A07FAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

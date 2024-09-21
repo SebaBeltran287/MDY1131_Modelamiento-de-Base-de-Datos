@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_normalizado" id="B7D6D2C6-D080-B675-0A34-8FA77FA7B810" version="3.5">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:02:09 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7D6D2C6-D080-B675-0A34-8FA77FA7B810</designId>
+</OSDM_Design>

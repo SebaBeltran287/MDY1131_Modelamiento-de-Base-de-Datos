@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16A4A335-AD5A-16DB-4304-F24430998049" name="PEDIDO">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:39:01 UTC</createdTime>
+<comment>Pedido</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_pedido" id="1BAA17E4-D379-6842-EF1C-ED82EF4585D5">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:39:17 UTC</createdTime>
+<comment>Numero de pedido</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_entrega" id="96D6F3C0-CCDB-3254-31F4-3CBD81F6EB5A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:39:32 UTC</createdTime>
+<comment>Fecha de entrega</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_remolque" id="ECCE0E6D-CAA2-EFE8-7DED-D36FA9A470FC">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:21:28 UTC</createdTime>
+<generatorID>09C2EEFF-32C9-1B9C-E15A-073378BBEA01</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>C61AD41C-3374-C546-F114-E4D63ECE943E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="81B3F3D2-E713-8073-1493-98FE0B602E08">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:51:31 UTC</createdTime>
+<generatorID>EC68DF36-1B83-D434-CF42-4532E5945E1B</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>C754F7D4-C99A-1CC2-B692-445159205204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EB5CDF7-5842-87CD-95C7-4F85A76154BB" name="PEDIDO PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:39:30 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BAA17E4-D379-6842-EF1C-ED82EF4585D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

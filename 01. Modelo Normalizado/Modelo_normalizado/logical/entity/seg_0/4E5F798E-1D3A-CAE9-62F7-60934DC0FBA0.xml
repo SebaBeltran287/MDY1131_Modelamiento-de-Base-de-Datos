@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E5F798E-1D3A-CAE9-62F7-60934DC0FBA0" name="TARIFA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:33:07 UTC</createdTime>
+<comment>Tarifa</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tarifa" id="22A8BAE9-CE33-132F-ECA8-43820B25E13F">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:56:13 UTC</createdTime>
+<comment>Id tarifa</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_tarifa" id="1F58ADAC-CEC3-0385-7C70-32A27EDBF892">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:56:31 UTC</createdTime>
+<comment>Monto de tarifa</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6AD4ADAD-BCA3-16FB-9120-7AC14B99067D" name="TARIFA PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:56:29 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22A8BAE9-CE33-132F-ECA8-43820B25E13F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

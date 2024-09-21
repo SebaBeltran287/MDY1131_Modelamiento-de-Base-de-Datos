@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51130575-F74D-3D10-269F-C02F26AA7A8A" containerWithKeyObject="6A0D0F1F-B942-306C-A9C2-D3862E066922" localFKIndex="8D9D7494-49D5-5756-0782-39344A036133" name="RUTA_TIPO_RUTA_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>22319C98-C9AC-FA7B-5841-FEC9CF9E52A7</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<referredTableLongName>TIPO_RUTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B82A771-25BC-C2EE-CBFA-9479FDECA799</referredTableID>
+<keyObject>4F182369-B8E8-530B-EFD1-99D37B328FDD</keyObject>
+<referredKeyID>4F182369-B8E8-530B-EFD1-99D37B328FDD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tiporuta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

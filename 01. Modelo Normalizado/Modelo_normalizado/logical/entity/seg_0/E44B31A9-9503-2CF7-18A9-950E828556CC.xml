@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E44B31A9-9503-2CF7-18A9-950E828556CC" name="TIPO_CONDUCTOR">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:37:46 UTC</createdTime>
+<comment>Tipo de conductor</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_conductor" id="632E9F27-E986-344E-27AB-3D6C4C23E7B2">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:36:09 UTC</createdTime>
+<comment>Id tipo de conductor</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_tipoconductor" id="39D63D49-7195-8FFF-6933-5B78BB2AF613">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:36:36 UTC</createdTime>
+<comment>Nombre tipo conductor</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sueldo" id="9CDBFB1E-FC34-F155-9749-34058F749C92">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:55:49 UTC</createdTime>
+<generatorID>793B0F1E-03B7-AAFE-F71F-1BC11449E306</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>06F8026D-BAA2-F8BE-F59B-28CC4C1745EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B532E8-9848-295B-F21A-0C3050C65878" name="TIPO_CONDUCTOR PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:36:22 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>632E9F27-E986-344E-27AB-3D6C4C23E7B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

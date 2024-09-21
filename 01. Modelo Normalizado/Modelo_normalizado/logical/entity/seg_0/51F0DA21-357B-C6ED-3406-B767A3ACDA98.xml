@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51F0DA21-357B-C6ED-3406-B767A3ACDA98" name="COMUNA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:36:22 UTC</createdTime>
+<comment>Comuna</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comuna" id="22387091-2B1D-4AC2-226E-21ECA7DC3A87">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:44:41 UTC</createdTime>
+<comment>Id comuna</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_comuna" id="9E60E95A-6339-1813-0402-60771301CFCF">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:44:52 UTC</createdTime>
+<comment>Nombre de comuna</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ciudad" id="BCB1E85B-4698-C2CD-E193-C5C9FAAEC4A9">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:03:43 UTC</createdTime>
+<comment>Nombre de ciudad</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_provincia" id="489DF9CE-C813-2170-8A6C-588310A1FEC9">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:04:00 UTC</createdTime>
+<comment>Nombre de provincia </comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80DB10E0-2458-6681-0B6E-F9EEBBBFD59F" name="COMUNA PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:44:51 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22387091-2B1D-4AC2-226E-21ECA7DC3A87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

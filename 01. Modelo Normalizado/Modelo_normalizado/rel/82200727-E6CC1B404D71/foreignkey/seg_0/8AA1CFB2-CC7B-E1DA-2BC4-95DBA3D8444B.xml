@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AA1CFB2-CC7B-E1DA-2BC4-95DBA3D8444B" containerWithKeyObject="DD86CEFB-2A93-3CA1-2AEA-C17CB281D430" localFKIndex="DDFFFFC6-0C98-40E2-B8F3-B4659BCB7DFD" name="PEDIDO_REMOLQUE_FK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:36:21 UTC</createdTime>
+<generatorID>09C2EEFF-32C9-1B9C-E15A-073378BBEA01</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<referredTableLongName>REMOLQUE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83D02704-5B68-3D11-C1B7-86E264C8761C</referredTableID>
+<keyObject>61A79CE8-741D-E3B8-0AD5-0852E1F6D3BD</keyObject>
+<referredKeyID>61A79CE8-741D-E3B8-0AD5-0852E1F6D3BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula_remolque</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

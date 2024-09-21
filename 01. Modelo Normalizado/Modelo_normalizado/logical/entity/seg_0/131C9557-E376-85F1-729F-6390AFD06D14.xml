@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="131C9557-E376-85F1-729F-6390AFD06D14" name="CAMION">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:28:55 UTC</createdTime>
+<comment>Camion</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_camion" id="0C610A64-ACC1-C8DF-45AC-E3AE06B0187C">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:31:43 UTC</createdTime>
+<comment>Id de camion</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="0CC97963-E638-ECB2-9B60-9CCB80D50F9A">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:29:20 UTC</createdTime>
+<comment>Matricula del camion</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_de_alta" id="33332FA7-7721-61CC-3CBA-272A7B3DDDE6">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:30:02 UTC</createdTime>
+<comment>Fecha de disponibilidad del camion </comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_max_carga" id="A00D0013-E998-411B-3596-CBB86AB8C043">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:30:47 UTC</createdTime>
+<comment>Peso maximo de carga del camion </comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_conductor" id="DA9ED30A-F62C-FCAE-5D8C-9E288EA8951B">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:36:54 UTC</createdTime>
+<generatorID>E94A76EE-67C1-7A14-B40F-D6EBDB8D028E</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>632E9F27-E986-344E-27AB-3D6C4C23E7B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tarifa" id="C18F96ED-2BB6-E23E-775C-C31DDDFCE92E">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:56:43 UTC</createdTime>
+<generatorID>985DF764-12BE-49B8-1850-FF3EB26E5EC2</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>22A8BAE9-CE33-132F-ECA8-43820B25E13F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F4DD0EE-CF24-52E3-E30A-061DAB7D9220" name="CAMION PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:29:51 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C610A64-ACC1-C8DF-45AC-E3AE06B0187C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

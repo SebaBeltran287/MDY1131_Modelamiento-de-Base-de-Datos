@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EA004DC-9374-D280-5092-F1D0D2C6FC7C" name="CLIENTE">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:40:30 UTC</createdTime>
+<comment>Cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_cliente" id="C754F7D4-C99A-1CC2-B692-445159205204">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:40:43 UTC</createdTime>
+<comment>Rut de cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_cliente" id="AA9603F0-464C-8E9D-EB9B-26EA58904270">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:31:14 UTC</createdTime>
+<comment>Nombre de cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="97DD4DD5-0498-B96B-FA54-914427B5ECE2">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:45:30 UTC</createdTime>
+<generatorID>C2246E1D-0444-FDC7-0C76-EAABE1BF8974</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>22387091-2B1D-4AC2-226E-21ECA7DC3A87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_paterno" id="2435EA5A-8A23-C384-503A-9478F1AB8B7D">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:35:28 UTC</createdTime>
+<comment>Apellido paterno de cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_materno" id="B6665A86-5425-E115-4C11-F9A3EFFED584">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:35:28 UTC</createdTime>
+<comment>Apellido materno de cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="1F18926E-C1A4-F99C-45BE-306F5C27FF57">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:35:28 UTC</createdTime>
+<comment>direccion cliente</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6376E914-0FD2-ECD5-70B6-545CFFEF77A1" name="CLIENTE PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:40:53 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C754F7D4-C99A-1CC2-B692-445159205204</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

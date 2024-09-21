@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D1218F1-38FB-E6E0-A966-41E183AC7DC9" name="RUTA">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:47:07 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_identificador" id="3BC02CB2-8CDE-EC94-3AF8-9B9208EF3511">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:47:13 UTC</createdTime>
+<comment>Numero identificador ruta</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_ruta" id="D5733E23-69A3-5677-E3F9-FC76D1D86694">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:38:53 UTC</createdTime>
+<comment>Nombre de ruta</comment>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tiporuta" id="24AABA3F-AE22-7ECF-C91A-62FE74EF9A1F">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 17:42:30 UTC</createdTime>
+<generatorID>22319C98-C9AC-FA7B-5841-FEC9CF9E52A7</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>D302FC42-FE80-E8F6-F83C-AE2B4AC05544</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="EA19CE74-95D0-0D1C-2AA6-99DD5B51BE0B">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 18:14:06 UTC</createdTime>
+<generatorID>C9575EF2-2ED0-077E-2797-61001590F004</generatorID>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<referedAttribute>22387091-2B1D-4AC2-226E-21ECA7DC3A87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8635D0F0-3B68-4353-61BE-E95E0DCEC6A3" name="RUTA PK">
+<createdBy>elseb</createdBy>
+<createdTime>2021-12-16 16:47:26 UTC</createdTime>
+<ownerDesignName>Modelo_normalizado</ownerDesignName>
+<engineerTo>
+<item key="82200727-3490-50C2-F074-E6CC1B404D71" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BC02CB2-8CDE-EC94-3AF8-9B9208EF3511</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
